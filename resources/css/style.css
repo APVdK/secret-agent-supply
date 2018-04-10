@@ -162,8 +162,41 @@ footer {
   .glasses {
     display: none;
   }
+  footer {
+    padding: 5rem 0;
+  }
 }
 
 @media screen and (max-width: 480px) {
-
+  h1 {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 0.77rem;
+  }
+  .headline {
+    padding: 1rem 2rem;
+    width: auto;
+    top: 10rem;
+  }
+  .new {
+    height: 15rem;
+  }
+  .business-info {
+    flex-direction: column;
+  }
+  .info {
+    margin: 0.5rem auto;
+    width: 90%;
+  }
+  .product.pen {
+    margin: auto;
+    width: 90%
+  }
+  .product.watch {
+    display: none;
+  }
+  footer {
+    text-align: center;
+  }
 }
